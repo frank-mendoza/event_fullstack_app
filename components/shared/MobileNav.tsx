@@ -24,7 +24,7 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         {/*ts-ignore */}
-        <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
+        {/* <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
           <Image
             src="/assets/images/logo.svg"
             alt="logo"
@@ -33,7 +33,7 @@ const MobileNav = () => {
           />
           <Separator className="border border-gray-50" />
           <NavItems />
-        </SheetContent>
+        </SheetContent> */}
       </Sheet>
     </nav>
   );
