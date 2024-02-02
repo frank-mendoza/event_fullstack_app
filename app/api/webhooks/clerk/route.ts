@@ -54,6 +54,9 @@ export async function POST(req: Request) {
   // Get the ID and type
   const eventType = evt.type;
 
+  console.log(`Webhook with and ID of and type of ${eventType}`);
+  console.log("Webhook body:", body);
+
   //webhook events --- use server when this function is called
   //create a new user upon successfull signup
   if (eventType === "user.created") {
